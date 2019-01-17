@@ -4,5 +4,6 @@ version = "1.0.0"
 authors = ["Keith Amling <me@amling2.org>"]
 
 [dependencies]
+bottom = { path = "../bottom" }
 left = { path = "../left" }
 right = { path = "../right" }
