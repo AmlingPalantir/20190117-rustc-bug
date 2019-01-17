@@ -1,5 +1,5 @@
 extern crate bottom2;
 extern crate bottom;
 
-#[doc(hidden)]
-pub mod export;
+pub use bottom2::Structo as Structo2;
+pub use bottom::Structo;
